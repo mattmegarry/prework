@@ -1,0 +1,89 @@
+body {
+  font-family: helvetica, arial;
+  background-color: rgb(244, 248, 249);
+}
+
+#maindiv {
+  postion:relative; /*so that children inherit co-ordinate system*/
+  height: 220px;
+  width: 900px;
+  padding: 40px;
+  border: solid;
+  border-radius: 7px;
+  border-color: rgb(225, 232, 237);
+  background-color: rgb(255, 255, 255);
+}
+
+#followdiv {
+  float: right;
+  position: relative;
+  padding: 10px 20px;
+  border: solid;
+  border-radius: 7px;
+  border-color: rgb(85, 172, 238);
+}
+
+#followtxt {
+  float: right;
+  font-size: 28px;
+  font-weight: 930;
+  margin: 0px 10px;
+  color: rgb(85, 172, 238);
+}
+
+#profpic {
+  float: left;
+}
+
+#icon {
+  float: left;
+  margin: 0px 10px 0px 20px;
+}
+
+h1 {
+  float: left;
+  position: relative;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 1;
+  margin: 5px 5px 0px 0px;
+  color: rgb(0, 0, 0);
+}
+
+#verified {
+  float: left; /* Why am I needing to float inline elements? */
+  margin: 0px 10px 0px 5px;
+}
+
+h2 {
+  color: rgb(104, 109, 129);
+  position: relative;
+  font-weight: bold; /* it seemed to inherit from h1 before this!!! */
+  top: 20px; /* couldn't work out how to fit into the flow */
+  left: -140px;
+}
+
+#tweet {
+  clear: left;
+  margin: 50px 0px 5px;
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+}
+
+#time {
+  margin-top: 10px; /*Things must come with default non-zero margins? */
+  margin-bottom: 25px;
+  font-size: 25px;
+  color:rgb(101, 116, 127);
+}
+
+#reply {
+  margin-right: 25px;
+}
+
+span {
+  font-size: 25px;
+  color: rgb(105, 120, 130);
+  margin-left: 8px;
+  margin-right: 25px;
+}
